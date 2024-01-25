@@ -1,0 +1,178 @@
+/* Ensure the base font size is sensible for most devices */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+/* Use relative units instead of fixed units for better scalability */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+/* Animate-on-scroll final state */
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+h1,h2{
+    text-align: center;
+}
+/* Make images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+#landing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#landing-image {
+    width: 100%;
+    height: auto;
+}
+#animated-text {
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid white;
+    /* Set a max width to fit your text */
+    max-width: 600px; /* Adjust as needed */
+    padding: 10px; /* For background blur */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 5px; /* Optional */
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5); /* Optional: Adds more blur */
+    animation: typing 5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+/* Fixed menu bar */
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+}
+/* Menu bar links */
+.menu-bar a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .menu-bar a {
+        padding: 10px;
+    }
+    #animated-text {
+        font-size: smaller;
+        max-width: 300px; /* Adjust for smaller screens */
+    }
+    /* Optionally adjust the height of the landing image container on smaller screens */
+    #landing {
+        height: auto;
+    }
+    /* Reduce the size of the header on smaller screens */
+    header {
+        height: auto;
+    }
+    /* Adjust padding and margins for sections on smaller screens */
+    .section {
+        padding: 20px;
+    }
+}
+/* History */
+.text-primary{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-visible {
+    background-image: url('/assets/trg.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.section-visible h4 {
+   text-align: center;
+}
+
+
+.section-visible::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+    z-index: -1;
+}
+
+.bi-compass{
+    background: rgba(255, 255, 255, 0.811); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 5px; /* Optional: rounded corners */
+    display: inline-block;
+    padding: 5px 10px;
+}
+.section-title {
+    cursor: pointer;
+    color:  #2262d1 !important; /* Adjust the color as per your theme */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+
+
+.section-content .col {
+    margin-top: 1rem;
+}
+
+.border-2 {
+    border-width: 2px !important;
+}
+
+.rounded-1 {
+    border-radius: 0.25rem !important;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.text-primary {
+    color: #2262d1 !important; /* Adjust the color as per your theme */
+    text-align: center;
+    margin:0 auto;
+}
+
+iframe {
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+}
+

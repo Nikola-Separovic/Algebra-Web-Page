@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/news.css">
+    <header class="sticky-top overflow-hidden">   
+      <!-- Navbar content -->
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+          <div class="container-fluid px-xl-5 d-flex flex-wrap">
+              <a class="navbar-brand" href="/">ALGEBRA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="/index.html">Home</a>
+                      </li>
+                      <li class="nav-item" style="display: none;" id="curriculumLink">
+                          <a class="nav-link" href="curriculum.html">Curriculum</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/news.html">News(BACK)</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+</head>
+<body class="d-flex flex-column min-vh-100 w-100" style>
+    <div class="background-section" style="background-image: url('/assets/Welcome-Day_Algebra-1024x731.jpg');">
+        <div class="title content-section">
+            <h1 class="media">We started the new academic year with a record number of 2,000 enrolled students</h1>
+        </div>
+    </div>
+
+<main class="content-section">
+              <div class="container">  
+              <h2 class="sub-title">New Record!</h2>
+                  <div class="text">
+                      <p class="w-sm-60 py-xl-5 fs-5 container py-4">We are starting the new academic year with a record number of 2,000 enrolled students, making us one of the 
+                          five largest Croatian institutions that conduct professional studies. The increase in the number of freshmen
+                          by as much as 15% compared to the last academic year is a clear signal that we are an institution that probably 
+                          enjoys the greatest increase in the confidence of young people who aspire to digital careers.
+                          Algebra's Welcome day marked the beginning of the academic year 2023/2024, and was held for the second
+                          year in a row at Spark Event Space, on the Zagreb campus of Algebra - the most modern and largest private
+                            educational infrastructure in the Republic of Croatia, which covers more than 12,000 square meters.
+                            At the festive event, 650 domestic and foreign freshmen and about fifty international exchange students 
+                            gathered, who filled the campus space and confirmed
+                          that the interest in innovative educational programs among new generations is even more intense.</p>
+                  </div>
+              </div>
+
+
+          
+          <!-- Video Container -->
+          <div class="video-container mb-3">
+            <div class="aspect-ratio-16by9 mb-3">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/KipjIq17TvQ?si=WIgWWrI4Ub-zZoX_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+          </div> 
+          
+          <!-- Your Image Gallery -->
+      <div class="container mt-3 content-section">
+        <div class="row content-section">
+            <div class="col-4">
+                <a href="assets/algebra-gaming.jpg" data-toggle="modal" data-target="#imageModal" data-slide-to="0">
+                    <img src="assets/algebra-gaming.jpg" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="assets/slider-kampus.jpg" data-toggle="modal" data-target="#imageModal" data-slide-to="1">
+                    <img src="assets/slider-kampus.jpg" class="img-fluid gallery-img">
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="assets/Welcome-Day_Algebra-1024x731.jpg" data-toggle="modal" data-target="#imageModal" data-slide-to="2">
+                    <img src="assets/Welcome-Day_Algebra-1024x731.jpg" class="img-fluid gallery-img">
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap Modal for Image Gallery -->
+      <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageModalLabel">Image Gallery</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/algebra-gaming.jpg" class="d-block w-100" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/slider-kampus.jpg" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/Welcome-Day_Algebra-1024x731.jpg" class="d-block w-100" alt="Image 3">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    
+</main>
+
+    <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- jQuery script for smooth scrolling -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/auth.js"></script>
+    
+</body>
+</html>

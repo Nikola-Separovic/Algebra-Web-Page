@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPIT Projekt</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/view.css">
+</head>
+<body class="d-flex flex-column min-vh-100 w-100">
+
+  <header class="sticky-top overflow-hidden">   
+
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid px-xl-5 d-flex flex-wrap">
+            <a class="navbar-brand" href="/">ALGEBRA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html#about">About us</a>
+                    </li>
+                    <li class="nav-item" style="display: none;" id="curriculumLink">
+                      <a class="nav-link" href="curriculum.html">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/index.html#history">History</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/index.html#location">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/news.html">News</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <main id="nastavni-plan">
+        <h1 class="main-title text-center w-50 p-4 mx-auto animated-title">Nastavni plan</h1>
+        <div id="courses" class="container py-xl-5 py-2 animated-form" style>
+            <div class="row row-cols-xl-2 row-cols-1 gx-xl-5 gx-0 gy-3">
+              <div class="col">
+                <label class="pb-2 fw-bold">Naziv kolegija:</label>
+                <input type="text" id="courseInput" class="form-control ui-autocomplete-input" placeholder="Započni unos naziva kolegija..." autocomplete="off">
+              </div>
+              <div class="col mb-5 overflow-auto">
+                <table class="table table-striped table-hover table-bordered w-100" style="display: none;">
+                  <thead>
+                    <tr>
+                      <th>Kolegij</th>
+                      <th>ECTS</th>
+                      <th>Sati</th>
+                      <th>Predavanja</th>
+                      <th>Vježbe</th>
+                      <th colspan="2">Tip</th>
+                    </tr>
+                  </thead>
+                  <tbody id="coursesTableBody">
+                    <tr id="totals" class="fw-bold">
+                      <td class="text-end">Ukupno:</td>
+                      <td id="ects">0</td>
+                      <td id="sati">0</td>
+                      <td id="predavanja">0</td>
+                      <td id="vjezbe">0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-auto d-flex justify-content-center align-items-center text-center fs-1 fw-bold text-white px-5">
+        <!-- Footer content here -->
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+    <script type="module" src="js/courses.js"></script>
+</body>
+</html>

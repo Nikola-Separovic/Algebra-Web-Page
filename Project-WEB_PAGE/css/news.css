@@ -1,0 +1,139 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.main-title {
+    font-style: oblique;
+    font-stretch: extra-expanded;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #48380c;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.container {
+    max-width: 1200px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 300px; /* Increased width */
+    height: 300px; /* Increased height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: auto; /* Center the links */
+    transition: transform 0.3s ease-in-out;
+}
+
+.circle:hover {
+    transform: scale(1.18);
+}
+.text-white {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.5); /* Semi-transparent background for better readability */
+    color: white;
+    width: 100%;
+    padding: 1.5rem; /* Increased padding */
+    text-align: center;
+    font-size: 1.1rem; /* Adjusted font size */
+}
+@media (max-width: 992px) {
+    .circle {
+        width: 250px; /* Adjusted for medium devices */
+        height: 250px;
+    }
+    .text-white {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+    .background-section {
+        height: 75vh; /* larger height for larger screens */
+        background-size: 100% auto; /* Adjust the size to prevent zooming */
+    }
+}
+
+@media (max-width: 768px) {
+    .circle {
+        width: 200px; /* Adjusted for small devices */
+        height: 200px;
+    }
+    .text-white {
+        font-size: 0.8rem;
+        padding: 0.5rem;
+    } 
+    .background-section {
+        background-size: contain; /* Image is fully visible, may not cover entirely */
+        height: 60vh;
+    }
+}
+.background-section {
+    /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color on top of the image */
+}
+.main{
+    font-size: 48px;
+    width: 150vh;
+}
+.title h1 {
+   
+    background: rgba(0, 0, 0, 0.555);
+}
+
+/* Using this for all visible elements */
+.content-section {
+    padding: 10px 0 50px 0; /* Adjusted padding for the top */
+    max-width: 900px; /* Set a maximum width */
+    margin: 0 auto; /* Center the element horizontally within the viewport */
+}
+.text {
+    text-align: left;
+    font-size: 18px;
+}
+  /* Adjust the images to have the same width and height as the video */
+  .gallery-img {
+    width: 100%;
+    height: 25vh; /* maintain aspect ratio */
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px; /* if you want rounded corners */
+  }
+  
+  /* Additional custom styles can go here */
+  .sub-title {
+    text-align: center;
+    font-style: oblique;
+    font-stretch: extra-expanded;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 46px;
+    position: relative;
+}
+
+.sub-title::after {
+    content: "";
+    display: block;
+    width: 100%; /* Set the width as needed */
+    height: 5px; /* Set the thickness of the underline */
+    background-color: orange; /* Set the color of the underline */
+    position: absolute;
+    bottom: -5px; /* Adjust the position to make the underline wider */
+    left: 50%;
+    transform: translateX(-50%);
+}

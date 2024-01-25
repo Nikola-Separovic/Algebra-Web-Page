@@ -1,0 +1,392 @@
+[
+    {
+        "id": 1,
+        "course": "Autentikacijski sustavi i baze podataka",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 1,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 3
+    },
+    {
+        "id": 2,
+        "course": "Engleski jezik",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 0,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 3,
+        "course": "Građa računala",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 4,
+        "course": "ICT alati u projektnom menadžmentu",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Izborni",
+        "semester": 6
+    },
+    {
+        "id": 5,
+        "course": "Interoperabilnost informacijskih sustava",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 6
+    },
+    {
+        "id": 6,
+        "course": "Izrada aplikacija za mobilne uredžaje",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Izborni",
+        "semester": 5
+    },
+    {
+        "id": 7,
+        "course": "Izrada završnog projekta/Praksa",
+        "ects": 10,
+        "hours": 0,
+        "lectures": 0,
+        "exercises": 0,
+        "type": "Obavezni",
+        "semester": 6
+    },
+    {
+        "id": 8,
+        "course": "Java Web Programiranje",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Izborni",
+        "semester": 6
+    },
+    {
+        "id": 9,
+        "course": "Kineziološka kultura",
+        "ects": 0,
+        "hours": 30,
+        "lectures": 0,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 10,
+        "course": "Kineziološka kultura 2",
+        "ects": 0,
+        "hours": 30,
+        "lectures": 0,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 11,
+        "course": "Matematika 1",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 12,
+        "course": "Matematika 2",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 13,
+        "course": "Objektno orijentirano programiranje",
+        "ects": 6,
+        "hours": 75,
+        "lectures": 2,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 3
+    },
+    {
+        "id": 14,
+        "course": "Objektno orijentirano programiranje - praktikum u .NET okolini",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 1,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 15,
+        "course": "Oblikovanje baza podataka",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 3
+    },
+    {
+        "id": 16,
+        "course": "Oblikovanje i izrada cjelovitog aplikativnog rješenja",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 1,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 6
+    },
+    {
+        "id": 17,
+        "course": "Operacijski sustavi",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 18,
+        "course": "Organizacija i managemenet",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 5
+    },
+    {
+        "id": 19,
+        "course": "Osnove digitalne elektronike",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 20,
+        "course": "Osnove poslovne ekonomije",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 21,
+        "course": "Osnove poslovnog komuniciranja",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 3
+    },
+    {
+        "id": 22,
+        "course": "Poslovni informacijski sustavi",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 6
+    },
+    {
+        "id": 23,
+        "course": "Pristup podacima iz programskog koda",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 0,
+        "exercises": 4,
+        "type": "Obavezni",
+        "semester": 5
+    },
+    {
+        "id": 24,
+        "course": "Programiranje",
+        "ects": 6,
+        "hours": 75,
+        "lectures": 2,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 25,
+        "course": "Programiranje u Javi 1",
+        "ects": 6,
+        "hours": 75,
+        "lectures": 2,
+        "exercises": 3,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 26,
+        "course": "Programiranje u Javi 2",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Izborni",
+        "semester": 5
+    },
+    {
+        "id": 27,
+        "course": "Programsko inženjerstvo",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 5
+    },
+    {
+        "id": 28,
+        "course": "Projektni menadžment",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 29,
+        "course": "Projektni razvoj aplikacija",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 30,
+        "course": "Računalna podrška uredskom poslovanju",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 1,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 31,
+        "course": "Razvoj web aplikacija",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 32,
+        "course": "Sigurnost informacijskih sustava 1",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 4
+    },
+    {
+        "id": 33,
+        "course": "Standardi u primjeni internetske tehnologije",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 3
+    },
+    {
+        "id": 34,
+        "course": "Strukture podataka i algoritmi",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 35,
+        "course": "Sustavi potpore odlučivanju",
+        "ects": 6,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Izborni",
+        "semester": 5
+    },
+    {
+        "id": 36,
+        "course": "Upravljanje informacijskim sustavima",
+        "ects": 4,
+        "hours": 45,
+        "lectures": 2,
+        "exercises": 1,
+        "type": "Obavezni",
+        "semester": 5
+    },
+    {
+        "id": 37,
+        "course": "Uvod u baze podataka",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 2
+    },
+    {
+        "id": 38,
+        "course": "Uvod u računalne mreže",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 1
+    },
+    {
+        "id": 39,
+        "course": "Vjerojatnost i statistika",
+        "ects": 5,
+        "hours": 60,
+        "lectures": 2,
+        "exercises": 2,
+        "type": "Obavezni",
+        "semester": 3
+    }
+]

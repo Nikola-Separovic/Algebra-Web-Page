@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra University College</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body class="d-flex flex-column min-vh-100 w-100">
+
+    <header class="sticky-top overflow-hidden">
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+            <div class="container-fluid px-xl-5">
+                <!-- Left-aligned items (Login/Logout and Contact) -->
+                <div class="navbar-nav mr-auto">
+                    <a class="navbar-brand" href="/">ALGEBRA</a>
+                    <a class="nav-link" id="loginLink" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</a>
+                    <a id="logoutLink" class="nav-link" href="#" style="display: none;">Logout</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+                </div>
+    
+                <!-- Center-aligned items (Home, About us, History, Location, News) -->
+                <!-- The 'mx-auto' class is used to automatically provide equal margin on the left and right -->
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link" href="#landing">Home</a>
+                    <a class="nav-link" href="#about">About us</a>
+                    <a class="nav-link" href="#history">History</a>
+                    <a class="nav-link" href="#location">Location</a>
+                    <a class="nav-link" href="news.html"
+                    style="margin-left:30px ;">News</a>
+                </div>
+    
+                <!-- Right-aligned item (Curriculum) -->
+                <!-- The 'ml-auto' class is used to push the curriculum link to the right -->
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="curriculum.html" id="curriculumLink" 
+                    style="display: none; margin-right: 80px; color: cornsilk;">Curriculum</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <div id="landing">
+        <img src="/assets/26675485.jpg" alt="Landing Image" id="landing-image" class="img-fluid">
+        <h1 id="animated-text">ALGEBRA</h1>
+    </div>
+    
+    <div id="about" class="section animate-on-scroll">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.algebra.hr%2Fvisoko-uciliste%2F&psig=AOvVaw2nrS7ohhEYXOpJzpEPVM3M&ust=1702223058636000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMD0zZrZgoMDFQAAAAAdAAAAABAI" alt="" srcset="">
+        <h1>Welcome to Algebra University College</h1>
+        <div class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://lidermedia.hr/images/slike/2023/10/18/431507.jpg" alt="About Us" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Us</h2>
+                    <p>We have been with you since 1998 and from day one we have been working tirelessly to raise the standards of education in Croatia. Through our first 20 years, we have gotten to know you well and we believe that you deserve only the best.</p>
+                    <!-- More text or elements can go here -->
+                </div>
+            </div>
+        </div>
+        
+        <h2>Programs</h2>
+        <section class="container mt-4 animate-on-scroll responsive-table">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional short study: Internet marketing</h5>
+                            <p class="card-text">Enroll in the only professional short study program in Croatia. Secure your Level 5 certificate and successfully continue your education!   After completing this study program, continue your education in higher education and enroll in the second year of professional undergraduate study in digital marketing and obtain a bachelor's degree!</p>
+                            <a href="https://www.algebra.hr/visoko-uciliste/studij/strucni-kratki-studij/internetski-marketing/" class="btn btn-primary">Click for more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional undergraduate studies / majors</h5>
+                            <p class="card-text">If you are thinking about enrolling in a higher education institution, you are already on the right track. Choose one of the six professional undergraduate study courses in the digital field and start your digital future. During your studies, we also provided you with a specially adapted professional internship in one of the best companies in Croatia or the EU.</p>
+                            <a href="https://www.algebra.hr/visoko-uciliste/preddiplomski-studij/" class="btn btn-primary">Click for more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 animate-on-scroll">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Professional graduate studies / majors</h5>
+                            <p class="card-text">All our professional graduate studies are conducted exclusively in English, even for students from Croatia. Therefore, exchange students and international students can easily join any study.
+                                Choose the study program/specialization that interests you the most and use your full potential. The following programs are conducted exclusively in English for all students from Croatia and abroad.</p>
+                                <a href="https://www.algebra.hr/visoko-uciliste/diplomski-studij/" class="btn btn-primary">Click for more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>    
+        <section id="history" class="py-5 bg-light animate-on-scroll">
+            <div class="container">
+                <!-- Subtitle -->
+                <h2 class="text-center mb-4 text-primary"> History</h2>
+                
+                <!-- Descriptive Text -->
+                <p class="lead text-left mb-5 mx-auto" style="max-width: 75%;">Together we build the history of Algebra. We started almost
+                     twenty years ago and with you we continue the journey towards new successes.
+                    We opened Algebra LAB, a unique innovation center that helps companies, public 
+                    services and start-up projects develop innovative business solutions that will boost the 
+                    competitiveness of the economy. With an investment of as much as three million kuna, we are 
+                    the only ones in Croatia to have united three key elements - a department of applied research 
+                    and development in the digital field, a start-up incubator with coworking space and an innovative
+                     educational platform intended to spread the most advanced technological and business knowledge. 
+                    Algebra LAB is a new place for innovations, creations, ideas and dreams about the future.</p>
+                
+                <!-- Cards for Timeline -->
+                <div class="row animate-on-scroll">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">1998 -Algebra was founded</h5>
+                                <p class="card-text">Algebra d.o.o. was founded in April 1998 as an adult education company. 
+                                    In June 1998, he recorded the first participants of the seminar on the use of computers and 
+                                    computer applications. In September 1998, it recorded the first significant increase in the 
+                                    number of service users, and through multi-digit growth in the years 1999 and 2000, it established itself on 
+                                    the adult education market, in the field of user application of information technologies (IT).</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">2000 - Microsoft Authorized Training Center (ATC)</h5>
+                                <p class="card-text">After a lot of effort and effort, we convinced the local office
+                                     of Microsoft Croatia in 2000 that we meet the set conditions so that we could become
+                                      an authorized educational center for their technologies. This authorization, the 
+                                      first in a series, distanced us from other educational providers from that time and 
+                                      provided us with access to official teaching materials and more favorable software licensing conditions.
+                                     We subsequently significantly improved this status in order to reach the "Gold" epithet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">2001 - Adobe, Macromedia i Autodesk Training Center</h5>
+                                <p class="card-text">Encouraged by the success of obtaining Microsoft accreditation, in 2001 we 
+                                    put all our strength into meeting the requirements for the establishment of an official training 
+                                    center for other manufacturers, and in the same year we became: Macromedia Authorized Training Center, 
+                                    Adobe Authorized Training Provider, Autodesk Authorized Training Center and IBM Business Partner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="row animate-on-scroll"> 
+                    <!-- Card 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">2002 - Algebra college founded</h5>
+                                <p class="card-text">At the beginning of 2002, Algebra d.o.o. founded the School of 
+                                    Algebra, and in the same year it moved to a much larger and better space at Maksimirska 
+                                    58a, Zagreb, where a total of 6 classrooms and about 800 m2 of organized educational space
+                                     are available to students. According to Microsoft Croatia's estimates, the share 
+                                    of Algebra in the Croatian educational services market for Microsoft tools grew to 30%–35% that year.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">2003 - Algebra College became the leading provider of education in IT</h5>
+                                <p class="card-text">With the introduction of a number of new adult education programs 
+                                    accredited by the Ministry in charge of education over the past few years, in 2003, in 
+                                    just one year, Algebra jumped from 5th to 1st place as a provider of IT education 
+                                    (measured by revenue and number of participants), achieving growth in one year of operation of 91.8%.
+                                     We still hold the position of the leading educational system in adult education today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase border-2 border-bottom pb-3 mb-3 text-primary">2007 - College of Algebra receives accreditation</h5>
+                                <p class="card-text">After more than 2 years of intensive preparations, at the end of 2007, the 
+                                    College of Applied Computing was founded, which received a permit from the Ministry of Science, 
+                                    Education and Sports in June 2008. This event set new guidelines for the development of the Algebra 
+                                    educational group and in a certain way successfully rounded off the efforts to launch a higher education 
+                                    program that were initiated back in 2002 through the implementation of the IBM ACE educational program. 
+                                    The implementation of the curriculum begins in the FER premises and in the Algebra building in Maksimirska Street.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="location" class="section-visible animate-on-scroll">
+            <h2 role="button" class="section-title text-center py-4 py-xl-5 my-3 my-xl-0" data-bs-toggle="collapse" data-bs-target="#location > .section-content" aria-expanded="true">
+              <i class="bi bi-compass">Location</i>
+            </h2>
+            <div class="section-content d-xl-block py-xl-5 py-2 collapse show" style>
+              <div class="container mb-4">
+                <div class="row row-cols-xl-2 row-cols-1 gx-4 gy-3">
+                  <div class="col">
+                    <div class="p-3 border border-2 rounded-1 h-100 bg-white">
+                      <section>
+                        <h4 class="pb-2 fw-bold">
+                          <i class="bi bi-geo-alt-fill text-primary">Location</i>
+                        </h4>
+                        <p class="px-5 pb-2">
+                            Algebra is located within the campus of the Croatian Catholic University (HKS) in Zagreb, at Ilica 242. 
+                            The entrance to the campus is located in Domobranska Street. Within the campus, Algebra operates in two 
+                            locations: in a newly renovated building from the beginning of the 20th century that covers more than 3,500 
+                            square meters, and on the 2nd floor of a modern new office building located in the immediate vicinity.
+                        </p>
+                      </section>
+                      <section>
+                        <h4 class="pb-2 fw-bold">
+                          <i class="bi bi-compass-fill text-primary">How to reach us?</i>
+                        </h4>
+                        <p class="px-5 pb-2">
+                            Algebra is located in the western part of the city of Zagreb, 
+                            one hundred meters from the tram stop Sv. Duh and about 15 km away from Zagreb airport.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="p-3 border border-2 rounded-1 h-100 bg-white">
+                      <section>
+                        <h4 class="pb-2 fw-bold">
+                          <i class="bi bi-train-front-fill text-primary">Public transport</i>
+                        </h4>
+                        <p class="px-5 pb-2">
+                            It is 6 tram stops away from the main square, Ban Jelačić Square, 
+                            on lines 6 and 11 in the direction of Črnomerac.
+                             It is 8 stops away from the Main Railway Station by tram line 6, 
+                             also in the direction of Črnomerac.
+                        </p>
+                      </section>
+                      <section>
+                        <h4 class="pb-2 fw-bold">
+                          <i class="bi bi-car-front-fill text-primary">Personal vehicle</i>
+                        </h4>
+                        <p class="px-5 pb-2">
+                            Information about arriving by car from the direction of Slavonska avenue is
+                             available here, from the direction of Zagrebačka avenue here, and from the 
+                             direction of Jadranska avenue
+                        </p>
+                      </section>
+                      <section>
+                        <h4 class="pb-2 fw-bold">
+                          <i class="bi bi-p-circle-fill text-primary">Parking</i>
+                        </h4>
+                        <p class="px-5 pb-2">
+                            Inside the campus, open parking is available for visitors, 
+                            which is charged HRK 4 per hour, while outside the campus 
+                            there is three. parking zone of Zagrebparking.
+                        </p>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2781.0500120319143!2d15.93893681556909!3d45.81025677910652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6d74e265877%3A0x1a4f4eae9fc461c5!2sAlgebra%20University%20College!5e0!3m2!1sen!2shr!4v1665771951174!5m2!1sen!2shr" class="w-100 border border-2 rounded-1" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </section>
+    
+
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="loginUsername" class="form-label">Username:</label>
+                        <input type="text" id="loginUsername" name="username" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="loginPassword" class="form-label">Password:</label>
+                        <input type="password" id="loginPassword" name="password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <p class="mt-3">Not registered? <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal">Register Here</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Register Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registerModalLabel">Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="registerForm">
+                    <div class="mb-3">
+                        <label for="registerUsername" class="form-label">Username:</label>
+                        <input type="text" id="registerUsername" name="username" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="registerPassword" class="form-label">Password:</label>
+                        <input type="password" id="registerPassword" name="password" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+                <p class="mt-3">Already registered? <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login Here</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact us</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://www.fulek.com/mvc/supit/project-contact-form" method="post">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control" id="fullName" name="FullName" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="Email" placeholder="example@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="importance" class="form-label">Importance:</label>
+                        <select class="form-select" id="importance" name="Importance">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="message" name="Message" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="newsletter" name="ReceiveNewsletter" value="true">
+                        <label class="form-check-label" for="newsletter">ReceiveNewsletter</label>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Exit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- Bootstrap Bundle (includes Bootstrap's JavaScript and Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="js/auth.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>

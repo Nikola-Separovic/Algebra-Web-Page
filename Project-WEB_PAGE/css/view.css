@@ -1,0 +1,35 @@
+/* dropdown list scrollable in curriculum.html */
+.ui-autocomplete {
+    max-height: 150px; /* Adjust the height to your preference */
+    overflow-y: auto; /* Show vertical scrollbar when needed */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    width: 40%; /* Optional: Set the width of the dropdown */
+    border: 1px solid #ddd; /* Optional: Add a border to the dropdown */
+    box-shadow: 0px 6px 12px rgba(0,0,0,.175); /* Optional: Add some shadow to match Bootstrap dropdowns */
+    border-radius: 0.25rem; /* Optional: Round the corners to match Bootstrap style */
+}
+
+/* Initial state for the form */
+.animated-form {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+/* Final state for the form after animation */
+.animated-form-active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Initial state for the title */
+.animated-title {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Final state for the title after animation */
+.animated-title-active {
+    opacity: 1;
+}
+
